@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Katie Butterworth · Twins of Fire</title>
+<meta name="description" content="A homepage idea made by Sparsh Saini for Katie Butterworth. Not her official site.">
+<meta property="og:title" content="Katie Butterworth · Twins of Fire (a homepage idea)">
+<meta property="og:description" content="A homepage idea made by Sparsh Saini for Katie Butterworth. Not her official site.">
+<meta property="og:image" content="https://sparshsainied-prog.github.io/katiebutterworth/img/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/left.jpg"><link rel="preload" as="image" href="img/right.jpg">
+<style>
+:root{--moss:#22281f;--moss2:#2d3628;--pink:#efe1dc;--ink:#1f211c;--gold:#cf9f45;--fire:#e8743a;--sage:#a8be86;--cream:#f4ebe3;--soft:#b9b8a6}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--moss)}
+body{background:var(--moss);color:var(--cream);font:1.17rem/1.6 "IM Fell English",Georgia,serif;-webkit-font-smoothing:antialiased}
+a{color:var(--gold)}
+.sc{font-family:"IM Fell English SC",Georgia,serif;letter-spacing:.03em}
+.strip{background:#151912;color:var(--soft);font-size:.95rem;text-align:center;padding:.45rem 16px}
+/* nav: the cover's name plate, pink with the two knot circles */
+.plate{position:fixed;z-index:20;left:50%;bottom:12px;transform:translateX(-50%);display:flex;align-items:center;gap:1rem;background:var(--pink);color:var(--ink);border:2px solid var(--gold);padding:.45rem 1rem;box-shadow:0 0 0 3px var(--moss),0 0 0 4px var(--gold)}
+.plate a{white-space:nowrap;color:var(--ink);text-decoration:none;font-family:"IM Fell English SC",serif;font-size:1.02rem}
+.plate a:hover{color:#8a3b17}
+.knot{width:18px;height:18px;flex:none}
+@media (min-width:900px){.plate{bottom:auto;top:44px}}
+/* hero */
+.hero{position:relative;height:330vh}
+.stage{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;background:radial-gradient(90% 70% at 50% 45%,#34402c,var(--moss) 75%)}
+.book{position:absolute;left:0;top:0;width:var(--bw);aspect-ratio:1086/1508}
+.half{position:absolute;top:0;width:50%;height:100%;will-change:transform}
+.half img{filter:drop-shadow(0 0 0 transparent)}
+.half img{width:100%;height:100%;display:block}
+.half.l{left:0}.half.r{left:50%}
+.seam{position:absolute;left:50%;top:-2%;width:28px;margin-left:-14px;height:104%;background:radial-gradient(50% 50% at 50% 50%,rgba(255,170,90,.95),rgba(232,116,58,.55) 40%,transparent 75%);opacity:0;will-change:opacity;pointer-events:none}
+.open{position:absolute;left:16px;right:16px;top:50%;transform:translateY(-50%);text-align:center;will-change:opacity}
+.open p{font-family:"IM Fell English SC",serif;color:var(--pink);font-size:clamp(1.7rem,7vw,3.4rem);line-height:1.12;text-shadow:0 2px 18px #000}
+.copy{position:absolute;left:16px;right:16px;bottom:92px;opacity:0;will-change:opacity,transform;text-align:center}
+.copy h1{font-family:"IM Fell English SC",serif;font-weight:400;color:var(--pink);font-size:clamp(1.35rem,5.6vw,2.4rem);line-height:1.15}
+.copy p{color:var(--sage);margin:.35rem 0 .9rem;font-style:italic}
+.btns{display:flex;flex-wrap:wrap;gap:.7rem;justify-content:center}
+.btn{font-family:"IM Fell English SC",serif;font-size:1.05rem;text-decoration:none;color:var(--ink);background:var(--pink);border:2px solid var(--gold);padding:.55rem 1.1rem;box-shadow:0 0 0 3px var(--moss),0 0 0 4px var(--gold)}
+.btn.f{background:var(--fire);color:#fff6ee;border-color:#f3b27a}
+@media (max-width:899px){.stage::after{content:"";position:absolute;left:0;right:0;bottom:0;height:42%;background:linear-gradient(transparent,rgba(26,31,23,.94) 50%);opacity:var(--sc,0);pointer-events:none}.copy{z-index:2}}
+@media (min-width:900px){.copy{left:auto;right:6vw;width:34vw;top:50%;bottom:auto;transform:translateY(-50%);text-align:left}.btns{justify-content:flex-start}.copy h1{font-size:clamp(2rem,3vw,3rem)}}
+/* calm sections */
+section.s{max-width:1040px;margin:0 auto;padding:5.5rem 16px}
+h2{font-family:"IM Fell English SC",serif;font-weight:400;color:var(--pink);font-size:clamp(1.8rem,5.5vw,2.8rem);line-height:1.1;margin-bottom:1.4rem}
+.panel{border:2px solid var(--gold);box-shadow:0 0 0 4px var(--moss),0 0 0 5px rgba(207,159,69,.6);padding:2rem 1.3rem;background:var(--moss2)}
+.bk{display:grid;gap:2rem;align-items:start}
+.bk img{width:min(280px,76%);display:block;margin:0 auto;box-shadow:0 18px 40px rgba(0,0,0,.55)}
+@media (min-width:780px){.bk{grid-template-columns:300px 1fr;gap:3rem}.bk img{width:100%}}
+.bk p{margin-bottom:.9rem;max-width:60ch}
+.tags{color:var(--sage);font-style:italic}
+.five{display:flex;gap:.6rem;margin:1.2rem 0 0;flex-wrap:wrap;align-items:center;color:var(--soft)}
+.five span{font-family:"IM Fell English SC",serif;border:1px solid rgba(207,159,69,.6);padding:.2rem .6rem}
+.five span.on{background:var(--pink);color:var(--ink)}
+.about{display:grid;gap:2rem}
+@media (min-width:820px){.about{grid-template-columns:1fr 300px;gap:3.5rem}}
+.about p{margin-bottom:1rem;max-width:60ch}
+.about img{width:100%;max-width:300px;display:block;border:2px solid var(--gold);box-shadow:0 0 0 4px var(--moss),0 0 0 5px rgba(207,159,69,.6)}
+.ev{display:grid;gap:1.5rem;align-items:center}
+@media (min-width:780px){.ev{grid-template-columns:1fr auto}}
+.ev .big{font-family:"IM Fell English SC",serif;color:var(--fire);font-size:clamp(2.4rem,9vw,4.2rem);line-height:1}
+.find{margin-top:2.5rem}
+footer{text-align:center;color:var(--soft);font-size:.95rem;padding:3rem 16px 6rem;border-top:1px solid rgba(207,159,69,.3)}
+@media (prefers-reduced-motion:reduce){.hero{height:auto}.stage{position:relative;height:auto;padding:2rem 16px 3rem}.book{position:relative;margin:0 auto 1.6rem;width:min(80vw,420px)}.half{transform:none!important}.open{display:none}.copy{position:relative;opacity:1!important;transform:none!important;left:auto;right:auto;bottom:auto;top:auto;width:auto;text-align:center}.btns{justify-content:center}.stage::after{display:none}}
+</style>
+</head>
+<body>
+<div class="strip">A homepage idea made by Sparsh Saini for Katie Butterworth. Not her official site.</div>
+<nav class="plate" aria-label="Sections">
+  <svg class="knot" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="#6d8a5a" stroke-width="1.2"><circle cx="10" cy="10" r="8"/><circle cx="10" cy="6" r="4"/><circle cx="10" cy="14" r="4"/><circle cx="6" cy="10" r="4"/><circle cx="14" cy="10" r="4"/></g></svg>
+  <a href="#book">The Book</a><a href="#katie">Katie</a><a href="#meet">Meet Me</a>
+  <svg class="knot" viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="#6d8a5a" stroke-width="1.2"><circle cx="10" cy="10" r="8"/><circle cx="10" cy="6" r="4"/><circle cx="10" cy="14" r="4"/><circle cx="6" cy="10" r="4"/><circle cx="14" cy="10" r="4"/></g></svg>
+</nav>
+
+<header class="hero">
+  <div class="stage" id="stage">
+    <div class="open" id="open"><p>Two siblings.<br>A hidden world.</p></div>
+    <div class="book" id="book" role="img" aria-label="The Twins of Fire cover: a moss-green wolf and a white eagle leaping through fire inside a gold art nouveau frame, with a bow and arrows on one side and a sword on the other">
+      <div class="half l" id="hl"><img src="img/left.jpg" alt="" width="543" height="1508"></div>
+      <div class="half r" id="hr"><img src="img/right.jpg" alt="" width="543" height="1508"></div>
+      <div class="seam" id="seam"></div>
+    </div>
+    <div class="copy" id="copy">
+      <h1>A bloodline worth killing for.</h1>
+      <p>Twins of Fire, The World Below book one. YA fantasy from Celtic myth, ages 13+.</p>
+      <div class="btns"><a class="btn f" href="https://www.amazon.co.uk/Twins-Fire-World-Below-Book/dp/B0DQVJ1JGC">Buy the book</a><a class="btn" href="https://www.audible.co.uk/pd/Twins-of-Fire-Audiobook/B0H2ZMMXHP">Listen on Audible</a></div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="s" id="book">
+  <h2>Welcome to The World Below</h2>
+  <div class="bk">
+    <img src="img/cover.jpg" alt="Twins of Fire cover" width="640" height="889" loading="lazy">
+    <div>
+      <p>Ella and Kal are ordinary. Or so they've spent their entire lives believing.</p>
+      <p>Until the morning of their sixteenth birthday. Their parents reveal a truth that shatters everything they know, placing weapons forged for them into their hands. Strange abilities awaken, and the life they thought they knew begins to unravel.</p>
+      <p>Beneath their world lies another: a hidden realm where the creatures and beings of Celtic mythology are real, ancient magic endures, and forgotten legends breathe. Here, being a twin means something far more powerful than they ever imagined.</p>
+      <p class="tags">Paperback, Kindle and audiobook, narrated by Pagan McGrath.</p>
+      <div class="btns" style="justify-content:flex-start"><a class="btn f" href="https://www.amazon.co.uk/Twins-Fire-World-Below-Book/dp/B0DQVJ1JGC">Amazon</a><a class="btn" href="https://www.audible.co.uk/pd/Twins-of-Fire-Audiobook/B0H2ZMMXHP">Audible</a></div>
+      <div class="five" aria-label="A planned five book series"><span class="on">One</span><span>Two</span><span>Three</span><span>Four</span><span>Five</span></div>
+      <p class="tags" style="margin-top:.6rem">A planned five-book series. Book two's title and cover are still to be revealed.</p>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="katie">
+  <h2>The pen behind the pages</h2>
+  <div class="about">
+    <div>
+      <p>I write YA fantasy that draws on the myths, folklore and landscapes of the British Isles, from my Devon roots and my Scottish Celtic heritage.</p>
+      <p>Twins of Fire was inspired by my own twins and the bond they share.</p>
+      <p>I don't have a writing room. The stories get written wherever the ideas find me: on the sofa with my laptop, in notebooks while I wait in the car after school or clubs, and out in the woods. I'm a pantser. I follow the characters to see where they lead.</p>
+      <p>I live in South Devon with my husband and our twins. When I'm not writing I'm usually on a woodland path or searching the Devon coast for the next piece of The World Below.</p>
+    </div>
+    <img src="img/katie.jpg" alt="Katie Butterworth among ferns and palms" width="600" height="727" loading="lazy">
+  </div>
+</section>
+
+<section class="s" id="meet">
+  <div class="panel ev">
+    <div>
+      <h2 style="margin-bottom:.6rem">Come and find me</h2>
+      <p>ScribeFest, Christmas Edition. Sedgebrook Hall, Northamptonshire.</p>
+      <p class="tags">Signed copies of Twins of Fire, with plenty of indie fantasy and YA on the tables around me.</p>
+    </div>
+    <div class="big">Sun 8 Nov</div>
+  </div>
+  <p class="find">Join the newsletter for book news, folklore and first looks: <a href="https://www.katiebutterworth.com">katiebutterworth.com</a>. Or find me on <a href="https://www.instagram.com/katiebutterworthbooks/">Instagram</a> and <a href="https://www.tiktok.com/@kbutterworthbooks">TikTok</a>.</p>
+</section>
+</main>
+<footer>A mockup made by Sparsh Saini for Katie Butterworth. Not affiliated, not live.</footer>
+<script>
+(()=>{const hero=document.querySelector('.hero'),stage=document.getElementById('stage'),book=document.getElementById('book'),hl=document.getElementById('hl'),hr=document.getElementById('hr'),seam=document.getElementById('seam'),open=document.getElementById('open'),copy=document.getElementById('copy');
+if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+let W,H,bw,bh,rx,ry,ht,tick=false;const cl=v=>Math.max(0,Math.min(1,v)),eo=t=>1-Math.pow(1-t,3),eio=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+function measure(){W=innerWidth;H=stage.clientHeight;const d=W>=900;bw=d?Math.min(H*.84/1.389,W*.36):Math.min(W*.78,H*.56/1.389);bh=bw*1.389;
+ book.style.setProperty('--bw',bw+'px');rx=d?W*.3-bw/2:W/2-bw/2;ry=d?H/2-bh/2:H*.05;book.style.transform=`translate(${rx}px,${ry}px)`;ht=hero.offsetHeight-H;draw()}
+function draw(){tick=false;const p=cl((scrollY-hero.offsetTop)/ht);
+ const k=eio(cl(p/.72));
+ // left twin rises from below, right twin comes down from above; both lean in and land on the centre line
+ const off=H*.6,side=bw*.3;
+ hl.style.transform=`translate(${-side*(1-k)}px,${off*(1-k)}px) rotate(${-7*(1-k)}deg)`;
+ hr.style.transform=`translate(${side*(1-k)}px,${-off*(1-k)}px) rotate(${7*(1-k)}deg)`;
+ const s=cl((p-.6)/.12),f=cl((p-.74)/.12);seam.style.opacity=(s*(1-f)).toFixed(3);
+ open.style.opacity=(1-cl(p/.32)).toFixed(3);
+ const c=cl((p-.76)/.18);copy.style.opacity=c;stage.style.setProperty('--sc',c);
+ copy.style.transform=(W>=900?'translateY(-50%) ':'')+`translateY(${(1-c)*16}px)`}
+addEventListener('scroll',()=>{if(!tick){tick=true;requestAnimationFrame(draw)}},{passive:true});addEventListener('resize',measure);measure()})();
+</script>
+</body>
+</html>
